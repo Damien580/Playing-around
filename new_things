@@ -1,0 +1,8 @@
+let wife = "Christine, "
+let husband = "Damien, "
+let daughter = "Ava, "
+let son1 = "Drake, "
+let son2 = "Jack"
+
+let family = wife + husband + daughter + son1 +son2
+    console.log(family)
