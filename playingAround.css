@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+}
+
+#first {
+    display: flex;
+    background-image: url("https://cdn.forumcomm.com/dims4/default/9eba9c0/2147483647/strip/false/crop/3200x2100+0+0/resize/1486x975!/quality/90/?url=https%3A%2F%2Ffcc-cue-exports-brightspot.s3.us-west-2.amazonaws.com%2Finforum%2Fbinary%2FiStock-1167340575_binary_6549636.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+#second {
+    display: flex;
+    background-image: url("https://images.theconversation.com/files/431659/original/file-20211112-23-187k38x.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+#third {
+    display: flex;
+    background-image: url("https://nypost.com/wp-content/uploads/sites/2/2021/12/zombie-apocalypse-1.jpg?quality=75&strip=all"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
