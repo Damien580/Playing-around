@@ -2,6 +2,11 @@
     margin: 0px;
 }
 
+body{
+    width: 100%;
+    max-width:100vw;
+}
+
 #first {
     display: flex;
     background-image: url("https://cdn.forumcomm.com/dims4/default/9eba9c0/2147483647/strip/false/crop/3200x2100+0+0/resize/1486x975!/quality/90/?url=https%3A%2F%2Ffcc-cue-exports-brightspot.s3.us-west-2.amazonaws.com%2Finforum%2Fbinary%2FiStock-1167340575_binary_6549636.jpg"); 
@@ -25,4 +30,43 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 100vw;
+    
+}
+#sign{
+    display: flex;
+    height: 100px;
+    width: 75px;
+    
+}
+
+#headerLinks{
+    display: flex;
+    width: 100%;
+    margin: 20px;
+    
+}
+
+#navlinks{
+    display: flex;
+    width: 100%;
+    list-style: none;
+    float:left;
+    flex-direction: row;
+    font-size: 30px;
+    
+    
+}
+
+.crumb{
+    width: 25%;
+    display: block;
+    width: 100%;
+
 }
