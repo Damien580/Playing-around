@@ -30,43 +30,71 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+} 
+
+#fourth{
+    display: flex;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqOEx5O16HXjLF34vJLfMnIc_1sTIsKk1N0XxoEThUiQ7RGdbARMUM8VgWQZSvXd20Urw&usqp=CAU"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
 
 header{
     display: flex;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkQ48JTo7d-3yiQqQdCvFoB9ngAVtoyWwdqQ&usqp=CAU");
     flex-direction: row;
     width: 100%;
     max-width: 100vw;
+    height: 10vw;;
+    position: sticky;
+    top: 1px;
     
-}
-#sign{
-    display: flex;
-    height: 100px;
-    width: 75px;
-    
+   
 }
 
-#headerLinks{
+#sign{
     display: flex;
-    width: 100%;
-    margin: 20px;
+    height: 100%;
+    width: 7vw;
+}
+
+nav{
+    display: flex;
+    float: left;
+    width:100vw;
     
+   
 }
 
 #navlinks{
-    display: flex;
-    width: 100%;
     list-style: none;
-    float:left;
-    flex-direction: row;
-    font-size: 30px;
-    
-    
-}
-
-.crumb{
-    width: 25%;
-    display: block;
+    text-align: center;
+    font-size:x-large;
     width: 100%;
-
+    
+     
 }
+
+li{
+    display:inline-block ;
+    width: 25%;   
+    position: relative;
+    top: 3vw;
+    font-size: xx-large;
+}
+
+a{
+    font-family: Chalkduster, fantasy;
+    color: #d9b234;
+}
+
+a:hover{
+    color: #4fb148;
+}
+
+a:active{
+    color: #e41709;
+}
+
+
