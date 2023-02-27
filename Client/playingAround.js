@@ -2,9 +2,9 @@ const sanctuaryContainer = document.querySelector('#sancContainer');
 const form = document.querySelector('form');
 const sancAddress = document.querySelector('#loc')
 const sancType = document.querySelector('#type')
-const sancInfo = document.querySelector('')
+const sancInfo = document.querySelector('#info')
+const sancList = document.querySelector('#sancList')
 
-const baseURL =  axios.post('http://localhost:4004/zombies')
 
 function handleSubmit(e) {
     e.preventDefault()
@@ -39,7 +39,7 @@ function deleteCard(id) {
 function getSanc() {
     sancList.innerHTML = ''
 
-    axios.get('http://localhost:4004/zombies')
+    axios.get('http://localhost:4004/zombies/sancList')
     .then(res => {
         res.data.forEach(elem => {
             let sancCard = `<div class="sanc-card">
