@@ -84,8 +84,7 @@ nav{
 #navlinks{
     list-style: none;
     text-align: center;
-    font-size:x-large;
-    width: 100%;
+    width: 75vw;
     
      
 }
@@ -94,8 +93,8 @@ li{
     display:inline-block ;
     width: 25%;   
     position: relative;
-    top: 10px;
-    font-size: x-large;
+    top: 25%;
+    font-size: 2vw;
 }
 
 a{
@@ -118,6 +117,5 @@ left: 7vw;
 }
 
 #loc{
-    height: 40px;
     width: auto;
 }
